@@ -15,5 +15,5 @@ return [
         'charts'           => true,  // show gauge chart or just big numbers
         'debounce_rate'    => 250    // milliseconds after key press to send keyup event when filtering
     ],
-    'staic_domain' => '127.0.0.1'
+    'static_domain' => '127.0.0.1'
 ];
