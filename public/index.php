@@ -248,9 +248,9 @@ $opcache = OpCacheService::init($options);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>OPcache statistics on <?php echo $opcache->getData('version', 'host'); ?></title>
-    <script src="//<?php echo $config['staic_domain']; ?>/lib/react/15.4.2/react.min.js"></script>
-    <script src="//<?php echo $config['staic_domain']; ?>/lib/react/15.4.2/react-dom.min.js"></script>
-    <script src="//<?php echo $config['staic_domain']; ?>/lib/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//<?php echo $config['static_domain']; ?>/lib/react/15.4.2/react.min.js"></script>
+    <script src="//<?php echo $config['static_domain']; ?>/lib/react/15.4.2/react-dom.min.js"></script>
+    <script src="//<?php echo $config['static_domain']; ?>/lib/jquery/3.1.1/jquery.min.js"></script>
     <style type="text/css">
         body { font-family:sans-serif; font-size:90%; padding: 0; margin: 0 }
         nav { padding-top: 20px; }
